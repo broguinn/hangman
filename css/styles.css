@@ -1,0 +1,87 @@
+body {
+  background-image: url("../img/brickwall.png");
+}
+
+.container {
+  background-color: #FDFDFD;
+  border-radius: 10px;
+  margin-top: 40px;
+  max-width: 500px;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.btn-guess {
+  margin-top: 10px;
+  padding: 3px 10px;
+  border-radius: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 400;
+}
+
+#incomplete-word {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#bad-guesses {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+
+#guess-error {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#man {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../img/hangman_sprite.png');
+  width: 113px;
+  height: 144px;
+  margin-top: 50px;
+}
+
+.zero {
+  background-position: 2px 2px;
+}
+
+.one {
+  background-position: -108px 2px;
+}
+
+.two {
+  background-position: -218px 2px;
+}
+
+.three {
+  background-position: -328px 2px;
+}
+
+.four {
+  background-position: -439px 2px;
+}
+
+.five {
+  background-position: -550px 2px;
+}
+
+.six {
+  background-position: -660px 2px;
+}
