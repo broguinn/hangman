@@ -4,4 +4,6 @@ A hangman game that queries the [wordnik api](http://api.wordnik.com) and lets y
 
 Very easy to get up and running: just open the html file in your favorite browser after cloning in.
 
+Or check it out [live](http://braden.site44.com/hangman)
+
 Enjoy!
