@@ -41,7 +41,7 @@ var Game = {
   },
 
   isDead: function() {
-    return (this.badGuesses.length === 6) ? true : false; 
+    return (this.badGuesses.length === 6) ? true : false;
   },
 
   isWinner: function() {
@@ -129,21 +129,3 @@ $(function() {
     updateHangman();
   });
 });
-
-
-/*
-
-FIX:
-- make the layout pretty
-- implement modals for end game
-- get a random word from a dictionary API
-- prevent API from returning words with spaces or upper case letters
-
-
-
-
-
-*/
-
-
-
